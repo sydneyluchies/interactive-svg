@@ -1,0 +1,22 @@
+svg:hover {
+  margin-top: 2em;
+  transition: all 1s linear;
+}
+
+#left-eye,
+#right-eye {
+  transform: translateX(0);
+  animation: move 1s ease infinite;
+}
+
+@keyframes move {
+
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(5px);
+  }
+
+}
